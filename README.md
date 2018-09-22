@@ -6,6 +6,6 @@ El archivo graph1.m obtiene los puntos de igual manera que lo hace entrega1.m, y
 
 Para poder reproducir los experimentos planteados en el documento y/o realizar nuevos, se debe primero importar estos archivos, o copiar el código en algún motor de lenguaje Octave y luego elegir los parámetros deseados de la siguiente manera:
 
-      -Se eligen los valores iniciales deseados modificando el vector de estados inicial "y0".
+      -Se eligen los valores iniciales modificando el vector de estados inicial "y0".
       -Se elige el tiempo final modificando el valor de "tf".
       -Se elige la cantidad de intervalos modificando el valor de "M".
