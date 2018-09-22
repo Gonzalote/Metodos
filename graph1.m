@@ -18,7 +18,7 @@ function graph1 ()
   ze = xe .* ye;
   plot3(xe, ye, ze, 'r', 'LineWidth',3);
     
-  %%%% Para comparar con ODEs resueltas por octave %%%
+  %%%% Para comparar con ODEs resueltas por octave %%%%
   
   t = linspace(0, tf, M);
   S = lsode("f", y0, t);
