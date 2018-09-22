@@ -17,8 +17,7 @@ function graph1 ()
   ye = R(:,2)';
   ze = xe .* ye;
   plot3(xe, ye, ze, 'r', 'LineWidth',3);
-    
-  %%%% Para comparar con ODEs resueltas por octave %%%%
+ 
   
   t = linspace(0, tf, M);
   S = lsode("f", y0, t);
@@ -33,8 +32,6 @@ function graph1 ()
 
   hold off;
   
-  
-  %%% Calculo del error absoluto %%%
   e = abs(R .- S);
   
   figure(2), hold on;
