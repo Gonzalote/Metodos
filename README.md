@@ -1,4 +1,4 @@
-El archivo f.m y euler.m es una función auxiliar utilizada tanto en entrega2.m como en orden_error.m
+El archivo f.m es una función auxiliar utilizada tanto en entrega2.m como en orden_error.m
 
 El archivo euler.m implementa el método de Euler hacia adelante.
 
@@ -9,8 +9,6 @@ El archivo trapecio.m implementa el método del trapecio.
 El archivo heun.m implementa el método Heun.
 
 El archivo rungekutta4.m implementa el método de Runge-Kutta clásico de orden 4.
-
-El archivo entrega2.m simplemente despliega los puntos obtenidos por el método utilizado en forma de tabla. 
 
 El archivo entrega2.m muestra una gráfica de error para cada método que representa el error global a medida que se aumenta la cantidad de pasos y además mide el tiempo que demora en finalizar cada método.
 
