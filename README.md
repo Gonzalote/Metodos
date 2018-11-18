@@ -23,4 +23,4 @@ Para poder reproducir los experimentos planteados en el documento y/o realizar n
       -Se eligen los valores iniciales modificando el vector de estados inicial "y0" en el código de orden_error.m
       -Se elige el tiempo final modificando el valor de "tf" en el código de orden_error.m
       -Se elige la cantidad de evaluaciones del método modificando el valor de "M" en el código de orden_error.m
-      -Se elige entre qué valores variar h modificando los dos primeros parámetros de la función logspace de la línea 8, donde el primer parámetro es el valor más chico que puede tomar h (como potencia de 10) y el segundo parámetro es el primer valor que toma h (como potencia de 10).
+      -Se elige entre qué valores variar h modificando los dos primeros parámetros de la función logspace de la línea 8, donde el primer parámetro es primer valor que toma h (como potencia de 10) y el segundo parámetro es mayor valor que puede tomar h (como potencia de 10).
