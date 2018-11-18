@@ -23,3 +23,4 @@ Para poder reproducir los experimentos planteados en el documento y/o realizar n
       -Se eligen los valores iniciales modificando el vector de estados inicial "y0" en el código de orden_error.m
       -Se elige el tiempo final modificando el valor de "tf" en el código de orden_error.m
       -Se elige la cantidad de intervalos modificando el valor de "M" en el código de orden_error.m
+ 
