@@ -31,7 +31,7 @@ function entrega2 ()
   [aux, S] = ode45("f", t, y0);
   
   
-  %%% Calculo del error global %%%
+  % Calculo del error global %
   e_euler = abs(R_euler .- S);
   normae_euler = sqrt(sum(e_euler.^2,2));
   E_euler = max(normae_euler)
@@ -62,7 +62,7 @@ function entrega2 ()
        
   xlabel ("t");
   ylabel ("||error(h)||");
-  legend ("Euler hacia adelante", "Heun", "Euler hacia atr·s", 
+  legend ("Euler hacia adelante", "Heun", "Euler hacia atr√°s", 
           "Tapecio", "Runge-Kutta de orden 4", 
           "location", "northwest");
   
